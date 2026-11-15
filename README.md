@@ -71,6 +71,33 @@ The following diagram illustrates the complete DocuMind AI pipeline, from PDF up
 ![DocuMind AI Architecture](assets/documind-architecture.png)
 ```
 
+
+
+
+## Model Evaluation
+
+DocuMind AI uses a hybrid retrieval approach combining semantic similarity and keyword-based retrieval.
+
+### Retrieval Metrics
+
+| Metric | Result |
+|---|---:|
+| Precision@5 | 0.76 |
+| Recall@5 | 1.00 |
+| MRR | 1.00 |
+
+**Evaluation methodology:**
+- Evaluated using 5 manually labelled questions.
+- Metrics calculated at the page level.
+- Top 5 retrieved results considered for evaluation.
+
+### Limitations
+
+- Evaluation uses a small manually labelled test set.
+- Retrieval metrics do not measure answer correctness.
+- The lightweight local language model may occasionally generate incomplete or inaccurate answers.
+- Performance may vary depending on PDF structure and document quality.
+
 ## Technology Stack
 
 | Component | Technology |
