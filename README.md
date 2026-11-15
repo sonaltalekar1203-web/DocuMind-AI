@@ -19,6 +19,13 @@ locally executed language model.
 - Source-page references
 - Interactive Gradio interface
 - CPU-only execution without paid inference APIs
+- ## Application Screenshots
+
+### DocuMind AI — Main Interface
+![DocuMind AI Application](assets/documind-app.png)
+
+### Retrieved Sources and References
+![Source References](assets/documind-sources.png)
 
 ## Architecture
 
