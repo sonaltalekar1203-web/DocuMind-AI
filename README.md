@@ -123,6 +123,40 @@ DocuMind AI uses a hybrid retrieval approach combining semantic similarity and k
 7. Retrieve relevant passages.
 8. Generate answers using the local language model.
 
+
+## Installation and Usage
+
+### Requirements
+
+- Google account
+- Google Colab
+- Python
+- CPU runtime (GPU is not required)
+
+### Getting Started
+
+1. Clone or download this repository.
+2. Open `DocuMind_AI_CPU_RAG.ipynb` in Google Colab.
+3. Select a CPU runtime.
+4. Execute the notebook cells sequentially.
+5. Install the required dependencies using the notebook's installation cell.
+6. Allow the Qwen2.5-0.5B-Instruct model and embedding model to load.
+7. Upload your PDF document when prompted.
+8. Wait for PDF extraction, chunking, embedding generation and indexing to complete.
+9. Ask questions about your uploaded document through the Gradio interface.
+10. Review the generated answer and its source references.
+
+### Launching the Application
+
+The Gradio interface is launched using:
+
+`demo.launch(share=True)`
+
+Colab generates a temporary public Gradio URL that can be used to access the application.
+
+**Note:** The public URL is temporary and remains available only while the Colab session is active.
+
+
 ## Evaluation
 
 An initial evaluation was performed using five manually
