@@ -121,10 +121,13 @@ accuracy or answer-generation accuracy.
 Artificial Intelligence | Natural Language Processing |
 Retrieval-Augmented Generation | Large Language Models
 
-## Author
+Author
 
-Add your name and professional contact details here.
+Arjun Talekar
 
----
+AI/ML Engineering Student
 
-Built using open-source AI technologies.
+GitHub: sonaltalekar1203-web
+
+Project: DocuMind AI
+
