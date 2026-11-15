@@ -1,0 +1,12 @@
+torch
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+pymupdf
+gradio
+scikit-learn
+numpy
+pandas
+matplotlib
+sentencepiece
