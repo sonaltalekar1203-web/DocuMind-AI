@@ -63,6 +63,12 @@ locally executed language model.
                   |
                   v
          SOURCE REFERENCES
+
+
+
+The following diagram illustrates the complete DocuMind AI pipeline, from PDF upload to context-aware answer generation.
+
+![DocuMind AI Architecture](assets/documind-architecture.png)
 ```
 
 ## Technology Stack
